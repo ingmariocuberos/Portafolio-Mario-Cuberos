@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Ing. Mario</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <meta
+      name="description"
+      content="Portafolio Desarrollador Front-End Mario Cuberos. Medellín-Antioquia"
+    />
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="container">
+        <div class="logo">
+          <a href="index.html"><i class="fas fa-hard-hat helmet"></i></a>
+        </div>
+        <button class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+          </svg>
+          <svg
+            class="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+            />
+          </svg>
+        </button>
+        <nav class="menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#acerca">Acerca de</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#portafolio">Portafolio</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </section>
+    </header>
+    <section id="inicio" class="home">
+      <article
+        class="hero-image"
+        style="--hero-image: url('img/a2.jpg'); --hero-attachment: fixed"
+      >
+        <aside
+          class="hero-image-opacity"
+          style="--opacity-color: var(--black-alpha-color)"
+        >
+          <div class="hero-image-content">
+            <h2
+              class="hero-image-title"
+              style="--hero-text-color: var(--white-color)"
+            >
+              Hola, <br />
+              Soy Mario Cuberos
+            </h2>
+            <br />
+            <h3
+              class="hero-image-title-2"
+              style="--hero-text-color: var(--white-color)"
+            >
+              Bienvenido a mi Portafolio <br />
+            </h3>
+            <br />
+            <a href="#contacto" class="btn">CONTÁCTAME</a>
+          </div>
+          <div class="hero-image-redes">
+            <a
+              href="https://www.facebook.com/marioenrique.cuberoshernandez/"
+              target="_blanck"
+              rel="noopener"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/mariocuberos1/"
+              target="_blanck"
+              rel="noopener"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://wa.link/ifyven" target="_blanck" rel="noopener"
+              ><i class="fab fa-whatsapp" target="_blanck" rel="noopener"></i
+            ></a>
+          </div>
+        </aside>
+      </article>
+    </section>
+    <section id="acerca" class="about section container full-lg-screen">
+      <article class="text-lg-right">
+        <aside class="text-center text-lg-right">
+          <h1>Mario Enrique Cuberos</h1>
+          <h3>Desarrollador Front-End</h3>
+          <h5>Medellín - Colombia</h5>
+        </aside>
+        <p>
+          Ingeniero desarrollador de páginas y aplicativos web, enfocado hacia
+          el mejoramiento la funcionalidad del sitio, el diseño y visualización
+          del mismo. He hecho desarrollos para empresas en JavaScript y PHP y
+          algunos proyectos personales que actualmente se comercializan.
+        </p>
+        <p>
+          Cuento con experiencia laboral auditando y mejorando procesos tanto
+          administrativos como operativos e implementando soluciones
+          tecnológicas, lo cual me permite tener un mayor entendimiento del
+          flujo de información empresarial.
+        </p>
+        <div class="technologies text-center text-lg-right">
+          <h3>Herramientas:</h3>
+          <div class="technologies-aboutme">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-bootstrap"></i>
+            <i class="fab fa-js-square"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-github"></i>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="img-about">
+          <img src="img/perfil.jpg" alt="Mario Cuberos" />
+        </div>
+        <div class="text-center section-btn">
+          <a
+            class="btn"
+            href="CV-Mario-Cuberos.pdf"
+            target="_blanck"
+            rel="noopener"
+            >Download CV</a
+          >
+        </div>
+      </article>
+    </section>
+    <section id="habilidades" class="services section bg-gray-light">
+      <div class="container">
+        <h2 class="section-title">Habilidades y Tecnologías</h2>
+        <article class="service-card">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Maquetación</h3>
+          <img class="tech-img" src="img/tech-maq.png" />
+        </article>
+        <article class="service-card">
+          <i class="fas fa-diagnoses"></i>
+          <h3>Programación</h3>
+          <img class="tech-img" src="img/tech-log.png" />
+        </article>
+        <article class="service-card">
+          <i class="fas fa-search"></i>
+          <h3>Otras Tecnologías</h3>
+          <img class="tech-img" src="img/tech-back.png" />
+        </article>
+        <article class="service-card">
+          <h3>Thinking and Creating</h3>
+        </article>
+      </div>
+    </section>
+    <section id="portafolio" class="portfolio section">
+      <div class="container">
+        <h2 class="section-title">Mis Trabajos</h2>
+        <a href="#trabajo-1" class="portfolio-card">
+          <img src="img/simulacro.jpg" alt="Trabajo 1" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Simulacro SENA</h3>
+              <p>
+                Creación durante inicio de aprendizaje HTML, CSS y JavaScript.
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-2" class="portfolio-card">
+          <img src="img/orden-de-cargue.jpg" alt="Trabajo 2" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Orden de Cargue</h3>
+              <p>
+                Desarrollo hecho solo para escritorio, usando JavaScript y PHP
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-3" class="portfolio-card">
+          <img src="img/landing-simulacro.jpg" alt="Trabajo 3" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>LandingPage de Simulacro</h3>
+              <p>
+                Se realiza la landing page aparte por las limitaciones de
+                hostings gratuitos (en construcción)
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-4" class="portfolio-card">
+          <img src="img/find-a-gif.jpg" alt="Trabajo 4" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Find-A-GIF</h3>
+              <p>
+                Find-A-GIF es un proyecto hecho en React en el que puedes
+                conseguir 6 GIF de cualquier palabra o frase que escribas
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-5" class="portfolio-card">
+          <img src="img/loading.jpg" alt="Trabajo 5" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Next Project</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Adipisci, dignissimos esse sit nihil
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-6" class="portfolio-card">
+          <img src="img/loading.jpg" alt="Trabajo 6" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Next Project</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Adipisci, dignissimos esse sit nihil
+              </p>
+            </div>
+          </aside>
+        </a>
+      </div>
+    </section>
+    <article class="modal" id="trabajo-1">
+      <div class="modal-content">
+        <a href="#cerrar" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="img/simulacro.jpg" alt="Trabajo 1" />
+          <div class="portfolio-info">
+            <h3>Simulacro SENA</h3>
+            <p>
+              Creación durante inicio de aprendizaje HTML, CSS y JavaScript.
+              Accede con el número: 3159261000
+            </p>
+            <aside class="portfolio-details">
+              <small><b>CLIENTE:</b></small>
+              <small>Mario Cuberos</small>
+              <small><b>FECHA:</b></small>
+              <small>15/12/2019</small>
+              <small><b>TECNOLOGIA:</b></small>
+              <small>HTML, CSS y JavaScript</small>
+              <small><b>ENLACE:</b></small>
+              <small
+                ><a
+                  href="https://simulacrocq101.000webhostapp.com/usuario/"
+                  target="_blank"
+                  rel="noopener"
+                  >simulacrocq101/</a
+                ></small
+              >
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="trabajo-2">
+      <div class="modal-content">
+        <a href="#cerrar" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="img/orden-de-cargue.jpg" alt="Trabajo 2" />
+          <div class="portfolio-info">
+            <h3>Orden de Cargue</h3>
+            <p>
+              Desarrollo hecho solo para escritorio, usando JavaScript y PHP
+            </p>
+            <aside class="portfolio-details">
+              <small><b>CLIENTE:</b></small>
+              <small>Arcillas del Rosario</small>
+              <small><b>FECHA:</b></small>
+              <small>02/03/2021</small>
+              <small><b>TECNOLOGIA:</b></small>
+              <small>JS, PHP</small>
+              <small><b>ENLACE:</b></small>
+              <small
+                ><a
+                  href="https://www.youtube.com/watch?v=Kg38dbSCUtw"
+                  target="_blank"
+                  rel="noopener"
+                  >orden-de-cargue/</a
+                ></small
+              >
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="trabajo-3">
+      <div class="modal-content">
+        <a href="#cerrar" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="img/landing-simulacro.jpg" alt="Trabajo 3" />
+          <div class="portfolio-info">
+            <h3>LandingPage de Simulacro</h3>
+            <p>
+              Se realiza la landing page aparte por las limitaciones de hostings
+              gratuitos (en construcción)
+            </p>
+            <aside class="portfolio-details">
+              <small><b>CLIENTE:</b></small>
+              <small>Mario Cuberos</small>
+              <small><b>FECHA:</b></small>
+              <small>12/03/2021</small>
+              <small><b>TECNOLOGÍA:</b></small>
+              <small>HTML, CSS</small>
+              <small><b>ENLACE:</b></small>
+              <small
+                ><a
+                  href="https://ingmariocuberos.github.io/landing-simulacro/"
+                  target="_blank"
+                  rel="noopener"
+                  >simulacroSENA/</a
+                ></small
+              >
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="trabajo-4">
+      <div class="modal-content">
+        <a href="#cerrar" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="img/find-a-gif.jpg" alt="Trabajo 4" />
+          <div class="portfolio-info">
+            <h3>Find-A-GIF</h3>
+            <p>
+              Find-A-GIF es un proyecto hecho en React en el que puedes
+              conseguir 6 GIF de cualquier palabra o frase que escribas
+            </p>
+            <aside class="portfolio-details">
+              <small><b>CLIENTE:</b></small>
+              <small>Mario Cuberos</small>
+              <small><b>FECHA:</b></small>
+              <small>07/04/2021</small>
+              <small><b>TECNOLOGIA:</b></small>
+              <small>React, CSS</small>
+              <small><b>ENLACE:</b></small>
+              <small
+                ><a
+                  href="https://ingmariocuberos.github.io/findagifv2/"
+                  target="_blank"
+                  rel="noopener"
+                  >Find-A-GIF/</a
+                ></small
+              >
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="trabajo-5">
+      <div class="modal-content">
+        <a href="#cerrar" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="img/loading.jpg" alt="Trabajo 5" />
+          <div class="portfolio-info">
+            <h3>Next Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Adipisci, dignissimos esse sit nihil
+            </p>
+            <aside class="portfolio-details">
+              <small><b>CLIENTE:</b></small>
+              <small>Nombre del Cliente</small>
+              <small><b>FECHA:</b></small>
+              <small>2021</small>
+              <small><b>TECNOLOGIA:</b></small>
+              <small>Pagina Web</small>
+              <small><b>ENLACE:</b></small>
+              <small
+                ><a href="#" target="_blank" rel="noopener"
+                  >Next Project</a
+                ></small
+              >
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="trabajo-6">
+      <div class="modal-content">
+        <a href="#cerrar" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="img/loading.jpg" alt="Trabajo 6" />
+          <div class="portfolio-info">
+            <h3>Next Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Adipisci, dignissimos esse sit nihil
+            </p>
+            <aside class="portfolio-details">
+              <small><b>CLIENTE:</b></small>
+              <small>Nombre del Cliente</small>
+              <small><b>FECHA:</b></small>
+              <small>2021</small>
+              <small><b>TECNOLOGIA:</b></small>
+              <small>Pagina Web</small>
+              <small><b>ENLACE:</b></small>
+              <small
+                ><a href="#" target="_blank" rel="noopener"
+                  >Next Project</a
+                ></small
+              >
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <section id="contacto" class="contact section">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <article class="contact-cards">
+          <aside class="contact-card box-shadow-1">
+            <i class="fas fa-home"></i>
+            <h5>UBICACIÓN</h5>
+            <small>Medellín - Antioquia</small>
+          </aside>
+          <aside class="contact-card box-shadow-1">
+            <i class="fas fa-phone"></i>
+            <h5>TELEFONO</h5>
+            <small>(+57)(315)926-1000</small>
+          </aside>
+          <aside class="contact-card box-shadow-1">
+            <i class="fas fa-envelope"></i>
+            <h5>E-MAIL</h5>
+            <small
+              ><a href="mailto:ing.mariocuberos@gmail.com"
+                >ing.mariocuberos@gmail.com</a
+              ></small
+            >
+          </aside>
+        </article>
+      </div>
+    </section>
+    <section class="bg-first-light">
+      <form class="contact-form">
+        <input
+          type="text"
+          name="name"
+          placeholder="Ingresa tu nombre *"
+          title="El nombre sólo acpeta letras y espacios en blanco"
+          pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Ingresa tu mail *"
+          title="Email incorrecto"
+          pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+          required
+        />
+        <textarea
+          name="comments"
+          cols="50"
+          rows="10"
+          placeholder="Déjame tus comentarios *"
+          required
+        ></textarea>
+        <div class="contact-form-loader text-center none">
+          <img class="none" src="img/loader.svg" alt="enviando" />
+        </div>
+        <input class="btn" type="submit" value="ENVIAR MENSAJE" />
+      </form>
+      <article id="gracias" class="modal">
+        <div class="modal-content">
+          <article class="contact-form-response">
+            <h3>
+              ¡Muchas gracias <br />
+              por tus comentarios!
+            </h3>
+            <i class="far fa-smile"></i>
+          </article>
+        </div>
+      </article>
+      <footer class="footer">
+        <small
+          >Thank you for visiting my website. I really appreciate that..🎉 Have
+          an excellent day ....</small
+        >
+      </footer>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/c15b744a04.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
