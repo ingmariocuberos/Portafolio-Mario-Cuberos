@@ -430,6 +430,10 @@ p {
   color: #fff;
 }
 
+.objectfit-cover {
+  object-fit: cover;
+}
+
 /*    .technologies > h4{
         text-decoration-line: underline;
     } */
