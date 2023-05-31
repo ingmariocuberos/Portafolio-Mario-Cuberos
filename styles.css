@@ -131,7 +131,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px dotted #c2c2c2;
 }
 .section {
   padding: 2rem 1rem;
@@ -542,6 +541,9 @@ p {
   .portfolio-info {
     margin-left: 1rem;
     align-self: center;
+  }
+  .services {
+    min-height: calc(100vh - 4rem);
   }
   .services > .container {
     display: grid;
