@@ -1,0 +1,122 @@
+.animation-container {
+    overflow-x: hidden!important;
+}
+
+.crane-box{
+    position: absolute;
+    top: calc(200vh - 2rem + 14%);
+    max-width: 100vw;
+    width: 1292px;
+    left: 0px;
+}
+
+.box-hooked-1{
+    position: absolute;
+    top: calc(200vh - 2rem + 14% + 57px);
+    left: 0px;
+    animation: box-moving 15s linear 0s infinite backwards;
+}
+
+.box-hooked-2{
+    position: absolute;
+    top: calc(200vh - 2rem + 14% + 57px);
+    left: 0px;
+    animation: box-moving 15s linear 3s infinite backwards;
+}
+
+.box-hooked-3{
+    position: absolute;
+    top: calc(200vh - 2rem + 14% + 57px);
+    left: 0px;
+    animation: box-moving 15s linear 6s infinite backwards;
+}
+
+.agriculture-truck-1{
+    position: absolute;
+    top: calc(200vh - 2rem + 100vh - 209px);
+    left: 0px;
+    transform-style: preserve-3d;
+    animation: truck-moving 15s linear 1.5s infinite backwards;
+}
+
+.agriculture-truck-2{
+    position: absolute;
+    top: calc(200vh - 2rem + 100vh - 209px);
+    left: 0px;
+    transform-style: preserve-3d;
+    animation: truck-moving 15s linear 4.5s infinite backwards;
+}
+
+.agriculture-truck-3{
+    position: absolute;
+    top: calc(200vh - 2rem + 100vh - 209px);
+    left: 0px;
+    transform-style: preserve-3d;
+    animation: truck-moving 15s linear 7.5s infinite backwards;
+}
+
+@keyframes box-moving {
+    0% {
+        top: calc(200vh - 2rem + 14% + 57px);
+        left: -150px;
+    }
+    30% {
+        top: calc(200vh - 2rem + 14% + 57px);
+        left: calc(1292px - 100px);
+        transform: rotate(6deg);
+    }
+    34%{
+        top: calc(200vh - 2rem + 14% + 57px);
+        left: calc(1292px - 100px);
+        transform: rotate(-8deg);
+    }
+    36%{
+        top: calc(200vh - 2rem + 14% + 57px);
+        left: calc(1292px - 100px);
+        transform: rotate(-8deg);
+    }
+    38%{
+        top: calc(200vh - 2rem + 100vh - 175px);
+        left: calc(1292px - 100px);
+        transform: rotate(-90deg);
+    }
+    43%{
+        transform: rotate(-90deg);
+        left: calc(1292px - 100px);
+    }
+    78.3%{
+        transform: rotate(-90deg);
+        left: -150px;
+    }
+    100%{
+        top: calc(200vh - 2rem + 100vh - 175px);
+        transform: rotate(-90deg);
+        left: -150px;
+    }
+}
+
+@keyframes truck-moving {
+    0% {
+        left: -300px;
+    }
+    19.8% {
+        left: calc(1292px - 300px);
+        transform: rotateY(0deg);
+    }
+    22.44% {
+        transform: rotateY(180deg);
+        left: calc(1292px - 270px);
+    }
+    32.2% {
+        -webkit-transform: rotateY(180deg);
+        left: calc(1292px - 270px);
+    }
+    66.33% {
+        left: -280px;
+        transform: rotateY(180deg);
+    }
+    100% {
+        left: -280px;
+        -webkit-transform: rotateY(180deg);
+    }
+}
