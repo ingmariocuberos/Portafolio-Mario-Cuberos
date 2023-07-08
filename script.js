@@ -34,7 +34,6 @@
     })
       .then((res) => (res.ok ? res.json() : Promise.reject(res)))
       .then((json) => {
-        console.log(json);
         location.hash = "#gracias";
         $form.reset();
       })
