@@ -1,0 +1,308 @@
+{
+    "en": {
+      "title": "Portfolio - Ing. Mario",
+      "menu": {
+        "home": "Home",
+        "about": "About me",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "contact": "Contact me"
+      },
+      "heroImage": {
+        "greeting": "Hello!",
+        "name": "I'm Mario Cuberos",
+        "welcome": "Welcome to my Portfolio",
+        "contactButton": "CONTACT ME"
+      },
+      "about": {
+        "name": "Mario Enrique Cuberos",
+        "title": "Senior Full Stack Developer",
+        "location": "Medellín - Colombia",
+        "description1": "I'm an industrial engineer and Full Stack Software Developer with over 2 years of experience. Specializing in Angular, React, Laravel, and Node.js, my focus is on enhancing site functionality, design, and visualization.",
+        "description2": "As a software analyst at Konecta, I drive development, database management, and implementation processes using a range of technologies like Angular, React, Laravel, and PHP. Committed to process improvement and leveraging my academic background for better business information flow.",
+        "skills": "Skills:"
+      },
+      "skills": {
+        "sectionTitle": "Advanced Skills",
+        "angular": {
+          "name": "Angular",
+          "level": "Advanced"
+        },
+        "laravel": {
+          "name": "Laravel",
+          "level": "Advanced"
+        },
+        "sql": {
+          "name": "SQL",
+          "level": "Advanced"
+        },
+        "thinkingCreating": "Thinking and Creating"
+      },
+      "portfolio": {
+        "sectionTitle": "My Works",
+        "work1": {
+          "title": "Simulacro SENA",
+          "description": "Created during the beginning of learning HTML, CSS, and JavaScript."
+        },
+        "work2": {
+          "title": "Orden de Cargue",
+          "description": "Development done exclusively for desktop, using JavaScript and PHP for sending and receiving loading orders from Sales Room to Arcillas del Rosario S.A.S. Production Plant."
+        },
+        "work3": {
+          "title": "LandingPage de Simulacro",
+          "description": "The landing page is created separately due to limitations of free hostings (under construction)."
+        },
+        "work4": {
+          "title": "Rule Of Thumbs",
+          "description": "Rule of Thumbs is a website that allows collecting public figures' opinion votes. Developed with React and Firebase. (In Progress)"
+        },
+        "work5": {
+          "title": "Alfa App",
+          "description": "Application made to obtain feedback and evaluation of critical areas in Alfacer del Caribe S.A.S."
+        },
+        "work6": {
+          "title": "Pet Finder Santa Marta",
+          "description": "Tinder-like application developed specifically for mobile devices to help potential pets find interested people in Santa Marta city."
+        }
+      },
+      "work1Modal": {
+        "title": "Simulacro SENA",
+        "description": "Created during the beginning of learning HTML, CSS, and JavaScript. Access with the number: 3159261000",
+        "clientLabel": "CLIENT:",
+        "clientName": "Mario Cuberos",
+        "dateLabel": "DATE:",
+        "date": "15/12/2019",
+        "technologyLabel": "TECHNOLOGY:",
+        "technology": "HTML, CSS, and JavaScript",
+        "linkLabel": "LINK:",
+        "link": "simulacrocq101"
+      },
+      "work2Modal": {
+        "title": "Orden de Cargue",
+        "description": "Development done exclusively for desktop, using JavaScript and PHP for sending and receiving loading orders from Sales Room to Arcillas del Rosario S.A.S. Production Plant.",
+        "clientLabel2": "CLIENT:",
+        "clientName2": "Arcillas del Rosario",
+        "dateLabel2": "DATE:",
+        "date2": "02/03/2021",
+        "technologyLabel2": "TECHNOLOGY:",
+        "technology2": "JS, PHP",
+        "linkLabel2": "LINK:",
+        "link2": "orden-de-cargue"
+      },
+      "work3Modal": {
+        "title": "LandingPage de Simulacro",
+        "description": "The landing page is done separately due to the limitations of free hosting (under construction).",
+        "clientLabel3": "CLIENT:",
+        "clientName3": "Mario Cuberos",
+        "dateLabel3": "DATE:",
+        "date3": "12/03/2021",
+        "technologyLabel3": "TECHNOLOGY:",
+        "technology3": "HTML, CSS",
+        "linkLabel": "LINK:",
+        "link3": "simulacroSENA"
+      },
+      "work4Modal": {
+        "title": "Rule Of Thumbs",
+        "description": "Rule of Thumbs is a website that allows the collection of opinion votes from different public figures. Built with React and Firebase.",
+        "clientLabel4": "CLIENT:",
+        "clientName4": "Mario Cuberos",
+        "dateLabel4": "DATE:",
+        "date4": "16/07/2021",
+        "technologyLabel4": "TECHNOLOGY:",
+        "technology4": "React, SASS, Firebase",
+        "linkLabel4": "LINK:",
+        "link4": "Rule-Of-Thumbs"
+      },
+      "work5Modal": {
+        "title": "Pisos Alfa App",
+        "description": "Application made in React JS to obtain feedback and evaluation of critical areas in Alfacer del Caribe S.A.S.",
+        "clientLabel5": "CLIENT:",
+        "clientName5": "Alfacer del Caribe S.A.S.",
+        "dateLabel5": "DATE:",
+        "date5": "30/01/2020",
+        "technologyLabel5": "TECHNOLOGY:",
+        "technology5": "React, HTML, CSS, Bootstrap",
+        "linkLabel5": "LINK:",
+        "link5": "Alfa App"
+      },
+      "work6Modal": {
+        "title": "Pet Finder",
+        "description": "Application made to contribute to the problem of animal abandonment in Santa Marta.",
+        "clientLabel6": "CLIENT:",
+        "clientName6": "GABA Foundation",
+        "dateLabel6": "DATE:",
+        "date6": "July 2021",
+        "technologyLabel6": "TECHNOLOGY:",
+        "technology6": "React, Redux, SASS, Firebase",
+        "linkLabel6": "LINK:",
+        "link6": "Pet Finder"
+      },
+      "contact": {
+        "title": "Contact",
+        "location": "Location",
+        "locationDetails": "Medellín - Antioquia",
+        "phone": "Phone",
+        "phoneDetails": "(+57)(315)926-1000",
+        "email": "Email",
+        "emailDetails": "ing.mariocuberos@gmail.com"
+      },
+      "graciasModal": {
+        "title": "Thank You",
+        "message": "Thank you for your comments!",
+        "iconClass": "far fa-smile"
+      }
+    },
+    "es": {
+      "title": "Portafolio - Ing. Mario",
+      "menu": {
+        "home": "Inicio",
+        "about": "Acerca de mí",
+        "skills": "Habilidades",
+        "portfolio": "Portafolio",
+        "contact": "Contáctame"
+      },
+      "heroImage": {
+        "greeting": "¡Hola!",
+        "name": "Soy Mario Cuberos",
+        "welcome": "Bienvenido a mi Portafolio",
+        "contactButton": "CONTÁCTAME"
+      },
+      "about": {
+        "name": "Mario Enrique Cuberos",
+        "title": "Desarrollador Full Stack Senior",
+        "location": "Medellín - Colombia",
+        "description1": "Soy un ingeniero industrial y desarrollador de software Full Stack con más de 2 años de experiencia. Especializado en Angular, React, Laravel y Node.js, mi enfoque se centra en mejorar la funcionalidad, el diseño y la visualización de sitios web.",
+        "description2": "Como analista de software en Konecta, lidero el desarrollo, la gestión de bases de datos y los procesos de implementación utilizando una variedad de tecnologías como Angular, React, Laravel y PHP. Comprometido con la mejora de procesos y aprovechando mi formación académica para lograr un mejor flujo de información empresarial.",
+        "skills": "Habilidades:"
+      },
+      "skills": {
+        "sectionTitle": "Habilidades Avanzadas",
+        "angular": {
+          "name": "Angular",
+          "level": "Avanzado"
+        },
+        "laravel": {
+          "name": "Laravel",
+          "level": "Avanzado"
+        },
+        "sql": {
+          "name": "SQL",
+          "level": "Avanzado"
+        },
+        "thinkingCreating": "Thinking and Creating"
+      },
+      "portfolio": {
+        "sectionTitle": "Mis Trabajos",
+        "work1": {
+          "title": "Simulacro SENA",
+          "description": "Creado durante el inicio del aprendizaje de HTML, CSS y JavaScript."
+        },
+        "work2": {
+          "title": "Orden de Cargue",
+          "description": "Desarrollo hecho exclusivamente para escritorio, utilizando JavaScript y PHP para el envío y recepción de órdenes de cargue desde la Sala de Ventas a la Planta de Producción de Arcillas del Rosario S.A.S."
+        },
+        "work3": {
+          "title": "LandingPage de Simulacro",
+          "description": "La página de aterrizaje se crea por separado debido a las limitaciones de los alojamientos gratuitos (en construcción)."
+        },
+        "work4": {
+          "title": "Rule Of Thumbs",
+          "description": "Rule of Thumbs es un sitio web que permite la recolección de votos de opinión de diferentes personajes públicos. Desarrollado con React y Firebase. (En progreso)"
+        },
+        "work5": {
+          "title": "Alfa App",
+          "description": "Aplicación creada para obtener retroalimentación y evaluación de áreas críticas en Alfacer del Caribe S.A.S."
+        },
+        "work6": {
+          "title": "Pet Finder Santa Marta",
+          "description": "Aplicación tipo Tinder desarrollada específicamente para dispositivos móviles para ayudar a que las posibles mascotas encuentren personas interesadas en la ciudad de Santa Marta."
+        }
+      },
+      "work1Modal": {
+        "title": "Simulacro SENA",
+        "description": "Creado durante el inicio del aprendizaje de HTML, CSS y JavaScript. Accede con el número: 3159261000",
+        "clientLabel": "CLIENTE:",
+        "clientName": "Mario Cuberos",
+        "dateLabel": "FECHA:",
+        "date": "15/12/2019",
+        "technologyLabel": "TECNOLOGÍA:",
+        "technology": "HTML, CSS y JavaScript",
+        "linkLabel": "ENLACE:",
+        "link": "simulacrocq101"
+      },
+      "work2Modal": {
+        "title": "Orden de Cargue",
+        "description": "Desarrollo hecho exclusivamente para escritorio, utilizando JavaScript y PHP para el envío y recepción de órdenes de cargue desde la Sala de Ventas a la Planta de Producción de Arcillas del Rosario S.A.S.",
+        "clientLabel2": "CLIENTE:",
+        "clientName2": "Arcillas del Rosario",
+        "dateLabel2": "FECHA:",
+        "date2": "02/03/2021",
+        "technologyLabel2": "TECNOLOGÍA:",
+        "technology2": "JS, PHP",
+        "linkLabel2": "ENLACE:",
+        "link2": "orden-de-cargue"
+      },
+      "work3Modal": {
+        "title": "LandingPage de Simulacro",
+        "description": "Se realiza la landing page aparte por las limitaciones de hostings gratuitos (en construcción).",
+        "clientLabel3": "CLIENTE:",
+        "clientName3": "Mario Cuberos",
+        "dateLabel3": "FECHA:",
+        "date3": "12/03/2021",
+        "technologyLabel3": "TECNOLOGÍA:",
+        "technology3": "HTML, CSS",
+        "linkLabel3": "ENLACE:",
+        "link3": "simulacroSENA"
+      },
+      "work4Modal": {
+        "title": "Rule Of Thumbs",
+        "description": "Rule of Thumbs es una web que permite la recolección de votos de opinión de diferentes personajes públicos. Realizado con React y Firebase.",
+        "clientLabel4": "CLIENTE:",
+        "clientName4": "Mario Cuberos",
+        "dateLabel4": "FECHA:",
+        "date4": "16/07/2021",
+        "technologyLabel4": "TECNOLOGÍA:",
+        "technology4": "React, SASS, Firebase",
+        "linkLabel4": "ENLACE:",
+        "link4": "Rule-Of-Thumbs"
+      },
+      "work5Modal": {
+        "title": "Pisos Alfa App",
+        "description": "Aplicación hecha en React JS para obtener retroalimentación y evaluación de las áreas críticas en Alfacer del Caribe S.A.S.",
+        "clientLabel5": "CLIENTE:",
+        "clientName5": "Alfacer del Caribe S.A.S.",
+        "dateLabel5": "FECHA:",
+        "date5": "30/01/2020",
+        "technologyLabel5": "TECNOLOGÍA:",
+        "technology5": "React, HTML, CSS, Bootstrap",
+        "linkLabel5": "ENLACE:",
+        "link5": "Alfa App"
+      },
+      "work6Modal": {
+        "title": "Pet Finder",
+        "description": "Aplicación realizada para aportar un grano de arena a la problemática de abandono animal en Santa Marta.",
+        "clientLabel6": "CLIENTE:",
+        "clientName6": "Fundación GABA",
+        "dateLabel6": "FECHA:",
+        "date6": "julio 2021",
+        "technologyLabel6": "TECNOLOGÍA:",
+        "technology6": "React, Redux, SASS, Firebase",
+        "linkLabel6": "ENLACE:",
+        "link6": "Pet Finder"
+      },
+      "contact": {
+        "title": "Contacto",
+        "location": "Ubicación",
+        "locationDetails": "Medellín - Antioquia",
+        "phone": "Teléfono",
+        "phoneDetails": "(+57)(315)926-1000",
+        "email": "E-mail",
+        "emailDetails": "ing.mariocuberos@gmail.com"
+      },
+      "graciasModal": {
+        "title": "¡Gracias!",
+        "message": "¡Muchas gracias por tus comentarios!",
+        "iconClass": "far fa-smile"
+      }
+    }
+  }

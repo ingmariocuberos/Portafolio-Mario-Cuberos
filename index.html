@@ -4,19 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Ing. Mario</title>
+    <title id="title"></title>
     <link rel="shortcut icon" href="img/favicon.png" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="styles/agriculture-animation.css" />
-
-    <meta
-      name="description"
-      content="Portfolio FullStack Developer Mario Cuberos. Medellín-Antioquia"
-    />
+    <meta name="description" content="Portfolio FullStack Developer Mario Cuberos. Medellín-Antioquia" />
     <meta property="og:type" content="website" />
   </head>
 
@@ -48,11 +41,17 @@
           </svg>
         </button>
         <nav class="menu">
-          <a href="#inicio">Home</a>
-          <a href="#acerca">About me</a>
-          <a href="#habilidades">Skills</a>
-          <a href="#portafolio">Portfolio</a>
-          <a href="#contacto">Contact me</a>
+          <a href="#inicio" id="home-link">Home</a>
+          <a href="#acerca" id="about-link">About me</a>
+          <a href="#habilidades" id="skills-link">Skills</a>
+          <a href="#portafolio" id="portfolio-link">Portfolio</a>
+          <a href="#contacto" id="contact-link">Contact me</a>
+          <div class="switch-contenedor">
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+          </div>
         </nav>
       </section>
     </header>
@@ -66,22 +65,16 @@
           style="--opacity-color: var(--black-alpha-color)"
         >
           <div class="hero-image-content">
-            <h2
-              class="hero-image-title"
-              style="--hero-text-color: var(--white-color)"
-            >
-              Hello!, <br />
-              I'm Mario Cuberos
+            <h2 class="hero-image-title" style="--hero-text-color: var(--white-color)">
+              <span id="greeting"></span>, <br />
+              <span id="name"></span>
             </h2>
             <br />
-            <h3
-              class="hero-image-title-2"
-              style="--hero-text-color: var(--white-color)"
-            >
-              Welcome to my Portfolio <br />
+            <h3 class="hero-image-title-2" style="--hero-text-color: var(--white-color)">
+              <span id="welcome"></span> <br />
             </h3>
             <br />
-            <a href="#contacto" class="btn">CONTACT ME</a>
+            <a href="#contacto" class="btn" id="contact-button">CONTACT ME</a>
           </div>
           <div class="hero-image-redes">
             <a
@@ -106,18 +99,14 @@
     <section id="acerca" class="about section container full-lg-screen">
       <article class="text-lg-right">
         <aside class="text-center text-lg-right">
-          <h1>Mario Enrique Cuberos</h1>
-          <h3>Senior Full Stack Developer</h3>
-          <h5>Medellín - Colombia</h5>
+          <h1 id="about-name"></h1>
+          <h3 id="about-title"></h3>
+          <h5 id="about-location"></h5>
         </aside>
-        <p class="about-description">
-          I'm an industrial engineer and Full Stack Software Developer with over 2 years of experience. Specializing in Angular, React, Laravel, and Node.js, my focus is on enhancing site functionality, design, and visualization.
-        </p>
-        <p class="about-description">
-          As a software analyst at Konecta, I drive development, database management, and implementation processes using a range of technologies like Angular, React, Laravel, and PHP. Committed to process improvement and leveraging my academic background for better business information flow.
-        </p>
+        <p class="about-description" id="about-description1"></p>
+        <p class="about-description" id="about-description2"></p>
         <div class="technologies text-center text-lg-right">
-          <h3>Skills:</h3>
+          <h3 id="about-skills"></h3>
           <div class="technologies-aboutme">
             <i class="fa-solid fa-database" style="color: #29339a;"></i>
             <i class="fa-brands fa-laravel" style="color: #29339a;"></i>
@@ -133,54 +122,46 @@
           <img src="img/perfil.jpg" alt="Mario Cuberos" />
         </div>
         <div class="text-center section-btn">
-          <a
-            class="btn"
-            href="CV-Mario-Cuberos.pdf"
-            target="_blanck"
-            rel="noopener"
-            >Download CV</a
-          >
+          <a class="btn" href="CV-Mario-Cuberos.pdf" target="_blank" rel="noopener">Download CV</a>
         </div>
       </article>
     </section>
     <section id="habilidades" class="services section bg-gray-light">
       <div class="container">
-        <h2 class="section-title">Advanced Skills</h2>
-
+        <h2 class="section-title" id="skills-section-title"></h2>
+    
         <div class="tech-container">
-          <img class="tech-logo" src="img/angular-logo.png" alt="Logo de angular">
-          <h3>Angular</h3>
-          <p>Advanced</p>
+          <img class="tech-logo" src="img/angular-logo.png" alt="Logo de Angular" />
+          <h3 id="angular-name"></h3>
+          <p id="angular-level"></p>
         </div>
-
+    
         <div class="tech-container">
-          <img class="tech-logo" src="img/laravel-logo.png" alt="Logo de angular">
-          <h3>Laravel</h3>
-          <p>Advanced</p>
+          <img class="tech-logo" src="img/laravel-logo.png" alt="Logo de Laravel" />
+          <h3 id="laravel-name"></h3>
+          <p id="laravel-level"></p>
         </div>
-
+    
         <div class="tech-container">
-          <img class="tech-logo" src="img/sql-logo.png" alt="Logo de angular">
-          <h3>SQL</h3>
-          <p>Advanced</p>
+          <img class="tech-logo" src="img/sql-logo.png" alt="Logo de SQL" />
+          <h3 id="sql-name"></h3>
+          <p id="sql-level"></p>
         </div>
-
+    
         <article class="service-card">
-          <h3>Thinking and Creating</h3>
+          <h3 id="thinking-creating"></h3>
         </article>
       </div>
     </section>
     <section id="portafolio" class="portfolio section">
       <div class="container">
-        <h2 class="section-title">Mis Trabajos</h2>
+        <h2 class="section-title" id="portfolio-section-title"></h2>
         <a href="#trabajo-1" class="portfolio-card">
           <img src="img/simulacro.jpg" alt="Trabajo 1" />
           <aside class="portfolio-card-info">
             <div>
-              <h3>Simulacro SENA</h3>
-              <p>
-                Creación durante inicio de aprendizaje HTML, CSS y JavaScript.
-              </p>
+              <h3 id="work1-title"></h3>
+              <p id="work1-description"></p>
             </div>
           </aside>
         </a>
@@ -188,12 +169,8 @@
           <img src="img/orden-de-cargue.jpg" alt="Trabajo 2" />
           <aside class="portfolio-card-info">
             <div>
-              <h3>Orden de Cargue</h3>
-              <p>
-                Desarrollo hecho solo para escritorio, usando JavaScript y PHP
-                para el envío y recepción de órdenes de cargue desde la Sala de
-                Ventas a la Planta de Producción de Arcillas del Rosario S.A.S.
-              </p>
+              <h3 id="work2-title"></h3>
+              <p id="work2-description"></p>
             </div>
           </aside>
         </a>
@@ -201,11 +178,8 @@
           <img src="img/landing-simulacro.jpg" alt="Trabajo 3" />
           <aside class="portfolio-card-info">
             <div>
-              <h3>LandingPage de Simulacro</h3>
-              <p>
-                Se realiza la landing page aparte por las limitaciones de
-                hostings gratuitos (en construcción)
-              </p>
+              <h3 id="work3-title"></h3>
+              <p id="work3-description"></p>
             </div>
           </aside>
         </a>
@@ -213,12 +187,8 @@
           <img src="img/ruleofthumbs.png" alt="Trabajo 4" />
           <aside class="portfolio-card-info">
             <div>
-              <h3>Rule Of Thumbs</h3>
-              <p>
-                Rule of Thumbs es una web que permite la recolección de votos de
-                opinion de diferentes personajes públicos. Realizado con React y
-                Firebase. (En Desarrollo)
-              </p>
+              <h3 id="work4-title"></h3>
+              <p id="work4-description"></p>
             </div>
           </aside>
         </a>
@@ -226,11 +196,8 @@
           <img src="img/alfapp.png" alt="Trabajo 5" />
           <aside class="portfolio-card-info">
             <div>
-              <h3>Alfa App</h3>
-              <p>
-                Aplicación hecha para obtener retroalimentación y evaluación de
-                las áreas críticas en Alfacer del Caribe S.A.S.
-              </p>
+              <h3 id="work5-title"></h3>
+              <p id="work5-description"></p>
             </div>
           </aside>
         </a>
@@ -238,12 +205,8 @@
           <img src="img/petfinder1.png" alt="Trabajo 6" />
           <aside class="portfolio-card-info">
             <div>
-              <h3>Pet Finder Santa Marta</h3>
-              <p>
-                Aplicación tipo Tinder desarrollada especialmente para moviles
-                para que posibles mascotas sean encontradas más facilmente por
-                las personas interesadas en ellos en la ciudad de Santa Marta.
-              </p>
+              <h3 id="work6-title"></h3>
+              <p id="work6-description"></p>
             </div>
           </aside>
         </a>
@@ -266,27 +229,17 @@
         <article class="portfolio-modal">
           <img src="img/simulacro.jpg" alt="Trabajo 1" />
           <div class="portfolio-info">
-            <h3>Simulacro SENA</h3>
-            <p>
-              Creación durante inicio de aprendizaje HTML, CSS y JavaScript.
-              Accede con el número: 3159261000
-            </p>
+            <h3 id="work1-modal-title"></h3>
+            <p id="work1-modal-description"></p>
             <aside class="portfolio-details">
-              <small><b>CLIENTE:</b></small>
-              <small>Mario Cuberos</small>
-              <small><b>FECHA:</b></small>
-              <small>15/12/2019</small>
-              <small><b>TECNOLOGIA:</b></small>
-              <small>HTML, CSS y JavaScript</small>
-              <small><b>ENLACE:</b></small>
-              <small
-                ><a
-                  href="https://simulacrocq101.000webhostapp.com/usuario/"
-                  target="_blank"
-                  rel="noopener"
-                  >simulacrocq101/</a
-                ></small
-              >
+              <small><b id="client-label"></b></small>
+              <small id="client-name"></small>
+              <small><b id="date-label"></b></small>
+              <small id="date"></small>
+              <small><b id="technology-label"></b></small>
+              <small id="technology"></small>
+              <small><b id="link-label"></b></small>
+              <small><a href="https://simulacrocq101.000webhostapp.com/usuario/" target="_blank" rel="noopener" id="link"></a></small>
             </aside>
           </div>
         </article>
@@ -307,34 +260,19 @@
           </svg>
         </a>
         <article class="portfolio-modal">
-          <img
-            class="objectfit-cover"
-            src="img/orden-de-cargue.jpg"
-            alt="Trabajo 2"
-          />
+          <img class="objectfit-cover" src="img/orden-de-cargue.jpg" alt="Trabajo 2" />
           <div class="portfolio-info">
-            <h3>Orden de Cargue</h3>
-            <p>
-              Desarrollo hecho solo para escritorio, usando JavaScript y PHP
-              para el envío y recepción de órdenes de cargue desde la Sala de
-              Ventas a la Planta de Producción de Arcillas del Rosario S.A.S.
-            </p>
+            <h3 id="work2-modal-title"></h3>
+            <p id="work2-modal-description"></p>
             <aside class="portfolio-details">
-              <small><b>CLIENTE:</b></small>
-              <small>Arcillas del Rosario</small>
-              <small><b>FECHA:</b></small>
-              <small>02/03/2021</small>
-              <small><b>TECNOLOGIA:</b></small>
-              <small>JS, PHP</small>
-              <small><b>ENLACE:</b></small>
-              <small
-                ><a
-                  href="https://www.youtube.com/watch?v=Kg38dbSCUtw"
-                  target="_blank"
-                  rel="noopener"
-                  >orden-de-cargue/</a
-                ></small
-              >
+              <small><b id="client-label2"></b></small>
+              <small id="client-name2"></small>
+              <small><b id="date-label2"></b></small>
+              <small id="date2"></small>
+              <small><b id="technology-label2"></b></small>
+              <small id="technology2"></small>
+              <small><b id="link-label2"></b></small>
+              <small><a href="https://www.youtube.com/watch?v=Kg38dbSCUtw" target="_blank" rel="noopener" id="link2"></a></small>
             </aside>
           </div>
         </article>
@@ -357,27 +295,17 @@
         <article class="portfolio-modal">
           <img src="img/landing-simulacro.jpg" alt="Trabajo 3" />
           <div class="portfolio-info">
-            <h3>LandingPage de Simulacro</h3>
-            <p>
-              Se realiza la landing page aparte por las limitaciones de hostings
-              gratuitos (en construcción)
-            </p>
+            <h3 id="work3-modal-title"></h3>
+            <p id="work3-modal-description"></p>
             <aside class="portfolio-details">
-              <small><b>CLIENTE:</b></small>
-              <small>Mario Cuberos</small>
-              <small><b>FECHA:</b></small>
-              <small>12/03/2021</small>
-              <small><b>TECNOLOGÍA:</b></small>
-              <small>HTML, CSS</small>
-              <small><b>ENLACE:</b></small>
-              <small
-                ><a
-                  href="https://ingmariocuberos.github.io/landing-simulacro/"
-                  target="_blank"
-                  rel="noopener"
-                  >simulacroSENA/</a
-                ></small
-              >
+              <small><b id="client-label3"></b></small>
+              <small id="client-name3"></small>
+              <small><b id="date-label3"></b></small>
+              <small id="date3"></small>
+              <small><b id="technology-label3"></b></small>
+              <small id="technology3"></small>
+              <small><b id="link-label3"></b></small>
+              <small><a href="https://ingmariocuberos.github.io/landing-simulacro/" target="_blank" rel="noopener" id="link3"></a></small>
             </aside>
           </div>
         </article>
@@ -386,42 +314,24 @@
     <article class="modal" id="trabajo-4">
       <div class="modal-content">
         <a href="#cerrar" class="modal-close">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
-            />
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/>
           </svg>
         </a>
         <article class="portfolio-modal">
           <img src="img/ruleofthumbs.png" alt="Trabajo 4" />
           <div class="portfolio-info">
-            <h3>Rule Of Thumbs</h3>
-            <p>
-              Rule of Thumbs es una web que permite la recolección de votos de
-              opinion de diferentes personajes públicos. Realizado con React y
-              Firebase.
-            </p>
+            <h3 id="work4-modal-title"></h3>
+            <p id="work4-modal-description"></p>
             <aside class="portfolio-details">
-              <small><b>CLIENTE:</b></small>
-              <small>Mario Cuberos</small>
-              <small><b>FECHA:</b></small>
-              <small>16/07/2021</small>
-              <small><b>TECNOLOGIA:</b></small>
-              <small>React, SASS, Firebase</small>
-              <small><b>ENLACE:</b></small>
-              <small
-                ><a
-                  href="https://prueba-ui-mario-cuberos.netlify.app"
-                  target="_blank"
-                  rel="noopener"
-                  >Rule-Of-Thumbs</a
-                ></small
-              >
+              <small><b id="client-label4"></b></small>
+              <small id="client-name4"></small>
+              <small><b id="date-label4"></b></small>
+              <small id="date4"></small>
+              <small><b id="technology-label4"></b></small>
+              <small id="technology4"></small>
+              <small><b id="link-label4"></b></small>
+              <small><a href="https://prueba-ui-mario-cuberos.netlify.app" target="_blank" rel="noopener" id="link4"></a></small>
             </aside>
           </div>
         </article>
@@ -430,41 +340,24 @@
     <article class="modal" id="trabajo-5">
       <div class="modal-content">
         <a href="#cerrar" class="modal-close">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
-            />
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/>
           </svg>
         </a>
         <article class="portfolio-modal">
           <img src="img/alfapp.png" alt="Trabajo 5" />
           <div class="portfolio-info">
-            <h3>Pisos Alfa App</h3>
-            <p>
-              Aplicación hecha en React JS para obtener retroalimentación y
-              evaluación de las áreas críticas en Alfacer del Caribe S.A.S.
-            </p>
+            <h3 id="work5-modal-title"></h3>
+            <p id="work5-modal-description"></p>
             <aside class="portfolio-details">
-              <small><b>CLIENTE:</b></small>
-              <small>Alfacer del Caribe S.A.S.</small>
-              <small><b>FECHA:</b></small>
-              <small>30/01/2020</small>
-              <small><b>TECNOLOGIA:</b></small>
-              <small>React, HTML, CSS, Bootstrap</small>
-              <small><b>ENLACE:</b></small>
-              <small
-                ><a
-                  href="https://react-alfa-app.netlify.app"
-                  target="_blank"
-                  rel="noopener"
-                  >Alfa App</a
-                ></small
-              >
+              <small><b id="client-label5"></b></small>
+              <small id="client-name5"></small>
+              <small><b id="date-label5"></b></small>
+              <small id="date5"></small>
+              <small><b id="technology-label5"></b></small>
+              <small id="technology5"></small>
+              <small><b id="link-label5"></b></small>
+              <small><a href="https://react-alfa-app.netlify.app" target="_blank" rel="noopener" id="link5"></a></small>
             </aside>
           </div>
         </article>
@@ -473,41 +366,24 @@
     <article class="modal" id="trabajo-6">
       <div class="modal-content">
         <a href="#cerrar" class="modal-close">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
-            />
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/>
           </svg>
         </a>
         <article class="portfolio-modal">
           <img src="img/petfinder.png" alt="Trabajo 6" />
           <div class="portfolio-info">
-            <h3>Pet Finder</h3>
-            <p>
-              Aplicación realizada para aportar un grano de arena a la
-              problemática de abandono animal en Santa Marta.
-            </p>
+            <h3 id="work6-modal-title"></h3>
+            <p id="work6-modal-description"></p>
             <aside class="portfolio-details">
-              <small><b>CLIENTE:</b></small>
-              <small>Fundación GABA</small>
-              <small><b>FECHA:</b></small>
-              <small>julio 2021</small>
-              <small><b>TECNOLOGIA:</b></small>
-              <small>React, Redux, SASS, Firebase</small>
-              <small><b>ENLACE:</b></small>
-              <small
-                ><a
-                  href="https://petfindersantamarta.netlify.app/#/index"
-                  target="_blank"
-                  rel="noopener"
-                  >Pet Finder</a
-                ></small
-              >
+              <small><b id="client-label6"></b></small>
+              <small id="client-name6"></small>
+              <small><b id="date-label6"></b></small>
+              <small id="date6"></small>
+              <small><b id="technology-label6"></b></small>
+              <small id="technology6"></small>
+              <small><b id="link-label6"></b></small>
+              <small><a href="https://petfindersantamarta.netlify.app/#/index" target="_blank" rel="noopener" id="link6"></a></small>
             </aside>
           </div>
         </article>
@@ -515,26 +391,22 @@
     </article>
     <section id="contacto" class="contact section">
       <div class="container">
-        <h2 class="section-title">Contacto</h2>
+        <h2 class="section-title" id="contact-title"></h2>
         <article class="contact-cards">
           <aside class="contact-card box-shadow-1">
             <i class="fas fa-home"></i>
-            <h5>UBICACIÓN</h5>
-            <small>Medellín - Antioquia</small>
+            <h5 id="location-title"></h5>
+            <small id="location-details"></small>
           </aside>
           <aside class="contact-card box-shadow-1">
             <i class="fas fa-phone"></i>
-            <h5>TELEFONO</h5>
-            <small>(+57)(315)926-1000</small>
+            <h5 id="phone-title"></h5>
+            <small id="phone-details"></small>
           </aside>
           <aside class="contact-card box-shadow-1">
             <i class="fas fa-envelope"></i>
-            <h5>E-MAIL</h5>
-            <small
-              ><a href="mailto:ing.mariocuberos@gmail.com"
-                >ing.mariocuberos@gmail.com</a
-              ></small
-            >
+            <h5 id="email-title"></h5>
+            <small id="email-details"></small>
           </aside>
         </article>
       </div>
@@ -572,19 +444,14 @@
       <article id="gracias" class="modal">
         <div class="modal-content">
           <article class="contact-form-response">
-            <h3>
-              ¡Muchas gracias <br />
-              por tus comentarios!
-            </h3>
-            <i class="far fa-smile"></i>
+            <h3 id="gracias-modal-title"></h3>
+            <i id="gracias-modal-icon"></i>
           </article>
         </div>
       </article>
+      
       <footer class="footer">
-        <small
-          >Thank you for visiting my website. I really appreciate that..🎉 Have
-          an excellent day ....</small
-        >
+        <small id="footer-message"></small>
       </footer>
     </section>
     <script src="https://kit.fontawesome.com/4a7a7ee583.js" crossorigin="anonymous"></script>
