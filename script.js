@@ -54,11 +54,8 @@
   });
 })(document);
 
-
-var currentLanguage = "es";
-
-// Cargar archivo JSON de traducciones
-fetch("translations.json")
+const executeFetchLenguage = (currentLanguage) =>{
+  fetch("translations.json")
   .then(function(response) {
     return response.json();
   })
@@ -171,3 +168,12 @@ fetch("translations.json")
     document.getElementById("gracias-modal-icon").className = data[currentLanguage].graciasModal.iconClass;
     document.getElementById("footer-message").textContent = data[currentLanguage].graciasModal.message;
   });
+}
+
+const selectField = document.querySelector('.select-css')
+
+selectField.addEventListener('change', ()=>{
+  executeFetchLenguage(document.querySelector('.select-css').value);
+});
+
+executeFetchLenguage('en');
